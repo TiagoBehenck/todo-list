@@ -1,0 +1,47 @@
+.wrapper { 
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr 5.625rem;
+
+  margin-top: calc(0px - 1.5rem - 6px);
+}
+
+.input { 
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+  border-radius: 8px;
+
+  width: 100%;
+  border: 0;
+  resize: none;
+  height: 3.375rem;
+  padding: 1rem;
+}
+
+.button { 
+  background-color: var(--blue-dark);
+  
+  border-radius: 8px;
+  border: 0;
+  color: var(--white);
+  font-size: 0.875rem;
+  font-weight: bold;
+  cursor: pointer;
+  
+  transition: background 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.button:hover { 
+  background-color: var(--blue);
+}
+
+@media (max-width: 768px) {
+  .wrapper { 
+    grid-template-columns: 1fr;
+  }
+}
+
