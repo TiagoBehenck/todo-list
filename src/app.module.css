@@ -1,0 +1,39 @@
+.wrapper { 
+  max-width: 70rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  html { 
+    font-size: 87.5%;
+  }
+  
+  .wrapper { 
+    grid-template-columns: 1fr;
+  }
+}
+
+head { 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+  font-weight: bold;
+}
+
+.todosCreated { 
+  color: var(--blue);
+}
+
+.todosDone { 
+  color: var(--purple);
+}
+
+.counter { 
+  margin-left: 0.5rem;
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
