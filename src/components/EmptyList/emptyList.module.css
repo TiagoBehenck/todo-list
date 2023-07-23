@@ -1,0 +1,17 @@
+.wrapper { 
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray-300);
+  padding: 4rem 1.5rem;
+  border-top: 1px solid var(--gray-400);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.textBold { 
+  font-weight: bold;
+  font-size: 1rem;
+}
