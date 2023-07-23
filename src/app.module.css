@@ -1,6 +1,6 @@
 .wrapper { 
   max-width: 70rem;
-  margin: 2rem auto;
+  margin: 0 auto;
   padding: 0 1rem;
 }
 
@@ -14,12 +14,13 @@
   }
 }
 
-head { 
+.aboutTodos {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 4rem;
+  padding: 4rem 0 1.5rem 0;
   font-weight: bold;
+  font-size: 0.875rem;
 }
 
 .todosCreated { 
@@ -30,10 +31,13 @@ head {
   color: var(--purple);
 }
 
-.counter { 
+.counter {
+  width: 1.5rem;
+  height: 1.5rem; 
+  font-size: 0.75rem;
   margin-left: 0.5rem;
   color: var(--gray-200);
   background-color: var(--gray-400);
-  padding: 2px 8px;
+  padding: 0.125rem 0.5rem;
   border-radius: 999px;
 }
